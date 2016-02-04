@@ -1,0 +1,52 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980M    (ID=0x13d7)
+    Vendor:   NVIDIA
+    VRAM:     8011 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.170 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Walter\Desktop\Multiplayer Test_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: ab4 -> priority: 1 
+  Thread -> id: c74 -> priority: 1 
+IndexOutOfRangeException: Array index is out of range.
+  at PlayerSetup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at PlayerSetup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at PlayerSetup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Log: cannot connect after 10 attempt address {::ffff:25.67.135.244:7777}
+UNet Client Disconnect Error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
