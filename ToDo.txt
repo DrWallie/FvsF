@@ -1,0 +1,11 @@
+TO_DO lijst:
+
+GDD uitwerken :
+https://docs.google.com/document/d/1WRdMGCNhh3AxMQk2xddmcZG7dicuTWFWgemWIJwPlZg/edit
+
+Muis + Exis : 
+Muis is weg tijdens gameplay Esc zorgt dat muis terug komt en dan kun je ook op exit klikken.
+
+
+
+
