@@ -7,20 +7,35 @@ public class Player_NetSetup : NetworkBehaviour {
 	[SerializeField] AudioListener audioListener;
 	[SerializeField] Camera PlayerCam;
 
-	// Use this for initialization
+	[SerializeField] string remoteLayerName = "RemotePlayer";
+
 	void Start ()
 	{
-		if(isLocalPlayer)
+		if(!isLocalPlayer)
 		{
-			Disable();
+			Enable();
+			AssignRemoteLayer();
 		}
+
+		RegisterPlayer();
 	}
 
-	void Disable()
+	void RegisterPlayer()
 	{
-		PlayerCam.enabled = true;
-		audioListener.enabled = true;
-		GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
-		GetComponent<CharacterController>().enabled = true;
+		string _ID = "Player  " + GetComponent<NetworkIdentity>().netId;
+		transform.name = _ID;
+	}
+
+	void AssignRemoteLayer ()
+	{
+		gameObject.layer = LayerMask.NameToLayer(remoteLayerName);
+	}
+
+	void Enable ()
+	{
+		PlayerCam.enabled = false;
+		audioListener.enabled = false;
+		GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
+		GetComponent<CharacterController>().enabled = false;
 	}
 }

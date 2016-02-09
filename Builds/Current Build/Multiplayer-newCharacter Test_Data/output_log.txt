@@ -1,3 +1,10 @@
+Mono path[0] = 'C:/Users/Walter/Documents/GitHub/FvsF/Builds/Current Build/Multiplayer-newCharacter Test_Data/Managed'
+Mono path[1] = 'C:/Users/Walter/Documents/GitHub/FvsF/Builds/Current Build/Multiplayer-newCharacter Test_Data/Mono'
+Mono config path = 'C:/Users/Walter/Documents/GitHub/FvsF/Builds/Current Build/Multiplayer-newCharacter Test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Walter/Documents/GitHub/FvsF/Builds/Current Build/Multiplayer-newCharacter Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55412
+Multi-casting "[IP] 192.168.1.109 [Port] 55412 [Flags] 2 [Guid] 1889197513 [EditorId] 3522084724 [Version] 1048832 [Id] WindowsPlayer(TreeMSI) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.109:55412]
 Initialize engine version: 5.2.0f3 (e7947df39b5c)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -19,12 +26,30 @@ Loading C:\Users\Walter\Documents\GitHub\FvsF\Builds\Current Build\Multiplayer-n
 Platform assembly: C:\Users\Walter\Documents\GitHub\FvsF\Builds\Current Build\Multiplayer-newCharacter Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Walter\Documents\GitHub\FvsF\Builds\Current Build\Multiplayer-newCharacter Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Walter\Documents\GitHub\FvsF\Builds\Current Build\Multiplayer-newCharacter Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.213 seconds
+- Completed reload, in  0.223 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Walter\Documents\GitHub\FvsF\Builds\Current Build\Multiplayer-newCharacter Test_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1e80 -> priority: 1 
-  Thread -> id: e5c -> priority: 1 
+  Thread -> id: 129c -> priority: 1 
+  Thread -> id: 17b8 -> priority: 1 
+Player  2 has been shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerHit(String) (at C:\Users\Walter\Documents\GitHub\FvsF\Main files\Multiplayer FPS\Assets\Scripts\PlayerShoot.cs:40)
+PlayerShoot:InvokeCmdCmdPlayerHit(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkBehaviour:InvokeCommandDelegate(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkBehaviour.cs:303)
+UnityEngine.Networking.NetworkBehaviour:InvokeCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkBehaviour.cs:81)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:492)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1290)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:416)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:372)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:522)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:684)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:546)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:887)
+ 
+(Filename: C:/Users/Walter/Documents/GitHub/FvsF/Main files/Multiplayer FPS/Assets/Scripts/PlayerShoot.cs Line: 40)
+
